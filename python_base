@@ -1,3 +1,4 @@
 from python:3.11
 ENV PYTHONUNBUFFERED=1
-run apt install libreoffice vim git  -y
+run apt -y update 
+run apt install -y vim git ffmpeg
