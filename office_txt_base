@@ -1,0 +1,3 @@
+from python 3.11
+ENV PYTHONUNBUFFERED=1
+run apt install libreoffice -y
