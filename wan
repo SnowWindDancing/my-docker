@@ -1,4 +1,4 @@
-from python:3.11
+from pytorch/pytorch:2.1.2-cuda12.1-cudnn8-devel
 ENV PYTHONUNBUFFERED=1
 run apt -y update 
 run apt install -y vim git ffmpeg libreoffice
