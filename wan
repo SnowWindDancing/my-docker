@@ -3,5 +3,7 @@ ENV PYTHONUNBUFFERED=1
 run apt -y update 
 run apt install -y vim git ffmpeg libreoffice
 run git clone https://github.com/Wan-Video/Wan2.1.git
-run pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126 -U
+run pip install wheel packaging
+run pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+pip install -r requirements.txt
 run cd Wan2.1 && ls &&  pip install -r requirements.txt
