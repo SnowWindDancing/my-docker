@@ -3,4 +3,4 @@ ENV PYTHONUNBUFFERED=1
 run apt -y update 
 run apt install -y vim git ffmpeg libreoffice
 run git clone https://github.com/Wan-Video/Wan2.1.git
-run cd Wan2.1 && pip install -r reqirements.txt
+run cd Wan2.1 && ls &&  pip install -r reqirements.txt
