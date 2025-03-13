@@ -1,4 +1,4 @@
-from pytorch/pytorch:2.1.2-cuda12.1-cudnn8-devel
+from pytorch/pytorch:2.6.0-cuda12.6-cudnn9-devel
 # 设置非交互模式
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
@@ -7,5 +7,5 @@ run  apt update && apt upgrade -y
 run apt install -y vim git ffmpeg libreoffice
 run git clone https://github.com/Wan-Video/Wan2.1.git
 run pip install wheel packaging
-run pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+run pip install pyproject-toml
 run cd Wan2.1 && ls &&  pip install -r requirements.txt
