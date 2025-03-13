@@ -5,5 +5,4 @@ run apt install -y vim git ffmpeg libreoffice
 run git clone https://github.com/Wan-Video/Wan2.1.git
 run pip install wheel packaging
 run pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-run pip install -r requirements.txt
 run cd Wan2.1 && ls &&  pip install -r requirements.txt
