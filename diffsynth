@@ -5,7 +5,5 @@ ENV PYTHONUNBUFFERED=1
 # 默认yes
 run  apt update && apt upgrade -y
 run apt install -y vim git ffmpeg libreoffice
-run git clone https://github.com/Wan-Video/Wan2.1.git
-run pip install wheel packaging
-run pip install pyproject-toml
-run cd Wan2.1 && ls &&  pip install -r requirements.txt
+run git clone https://github.com/modelscope/DiffSynth-Studio.git
+run cd DiffSynth-Studio && pip install -e .
