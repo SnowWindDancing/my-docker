@@ -1,9 +1,10 @@
+# 用于扩散模型的部署和训练
 from pytorch/pytorch:2.6.0-cuda12.6-cudnn9-devel
 # 设置非交互模式
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
-# 默认yes
-run  apt update && apt upgrade -y
+run  apt update -y
 run apt install -y vim git ffmpeg libreoffice
 run git clone https://github.com/modelscope/DiffSynth-Studio.git
-run cd DiffSynth-Studio && pip install -e .
+workdir DiffSynth-Studio
+run pip install -e .
