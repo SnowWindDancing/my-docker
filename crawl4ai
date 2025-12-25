@@ -1,2 +1,3 @@
 from python:3.11
 run pip install crawl4ai
+run pip install langchain
