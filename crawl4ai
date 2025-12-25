@@ -1,1 +1,2 @@
-from unclecode/crawl4ai:0.7
+from python:3.11
+run pip install crawl4ai
