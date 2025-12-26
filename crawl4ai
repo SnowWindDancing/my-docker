@@ -1,3 +1,4 @@
 from python:3.11
 run pip install crawl4ai
-run pip install langchain
+run pip install langchain 
+run python -m playwright install --with-deps chromium -y
