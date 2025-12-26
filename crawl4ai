@@ -2,4 +2,4 @@ from python:3.11
 run pip install crawl4ai
 run python -m playwright install --with-deps chromium
 run pip install langchain==0.1.10 
-run pip install fastapi fiz
+run pip install fastapi PyMuPDF PyMuPDFb
