@@ -1,5 +1,5 @@
 from python:3.11
-run pip install crawl4ai
-run pip install langchain[all] 
 run python -m playwright install --with-deps chromium
+run pip install crawl4ai
+run pip install langchain==0.1.10 
 run pip install fastapi
