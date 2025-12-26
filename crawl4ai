@@ -1,5 +1,5 @@
 from python:3.11
 run pip install crawl4ai
-run pip install langchain 
+run pip install langchain[all] 
 run python -m playwright install --with-deps chromium
-run pip install fastapi langchain-text-splitters
+run pip install fastapi
